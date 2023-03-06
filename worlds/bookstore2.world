@@ -1,0 +1,2267 @@
+<sdf version='1.7'>
+  <world name='default'>
+    <gui fullscreen='0'>
+      <camera name='gzclient_camera'>
+        <pose>-28.0703 -2.85654 40.3001 -0 0.957797 -0.011986</pose>
+        <view_controller>ortho</view_controller>
+        <projection_type>orthographic</projection_type>
+      </camera>
+    </gui>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <physics name='default_physics' default='0' type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>1</shadows>
+      <grid>0</grid>
+      <origin_visual>0</origin_visual>
+    </scene>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>0</latitude_deg>
+      <longitude_deg>0</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <model name='BookF_01_004'>
+      <frame name='aws_robomaker_retail_BookF_01::__model__' attached_to='aws_robomaker_retail_BookF_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookF_01::link'>
+        <inertial>
+          <mass>10</mass>
+          <inertia>
+            <ixx>0.583817</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.502925</iyy>
+            <iyz>0</iyz>
+            <izz>0.99304</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookF_01/meshes/aws_BookF_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookF_01/meshes/aws_BookF_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookF_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>1.26164 0.856469 1.03816 8e-06 -0 1.58038</pose>
+    </model>
+    <model name='BookD_01_004'>
+      <frame name='aws_robomaker_retail_BookD_01::__model__' attached_to='aws_robomaker_retail_BookD_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookD_01::link'>
+        <inertial>
+          <mass>0.5</mass>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookD_01/meshes/aws_BookD_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookD_01/meshes/aws_BookD_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookD_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>2.35863 0.854853 1.03815 6e-06 -0 0.001712</pose>
+    </model>
+    <model name='BookF_01_005'>
+      <frame name='aws_robomaker_retail_BookF_01::__model__' attached_to='aws_robomaker_retail_BookF_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookF_01::link'>
+        <inertial>
+          <mass>10</mass>
+          <inertia>
+            <ixx>0.583817</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.502925</iyy>
+            <iyz>0</iyz>
+            <izz>0.99304</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookF_01/meshes/aws_BookF_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookF_01/meshes/aws_BookF_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookF_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>3.43061 0.856469 1.03816 8e-06 -0 1.58038</pose>
+    </model>
+    <model name='BookshelfA_01_001'>
+      <frame name='aws_robomaker_retail_BookshelfA_01::__model__' attached_to='aws_robomaker_retail_BookshelfA_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookshelfA_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>27.7341</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>20.9361</iyy>
+            <iyz>0</iyz>
+            <izz>11.3596</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookshelfA_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>1.40515 -1.44974 0.03755 0.00349 -3e-06 0.000696</pose>
+    </model>
+    <model name='BookshelfA_01_002'>
+      <frame name='aws_robomaker_retail_BookshelfA_01::__model__' attached_to='aws_robomaker_retail_BookshelfA_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookshelfA_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>27.7341</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>20.9361</iyy>
+            <iyz>0</iyz>
+            <izz>11.3596</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookshelfA_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>1.40515 -4.76165 0.003411 0 -0 0</pose>
+    </model>
+    <model name='BookshelfA_01_003'>
+      <frame name='aws_robomaker_retail_BookshelfA_01::__model__' attached_to='aws_robomaker_retail_BookshelfA_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookshelfA_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>27.7341</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>20.9361</iyy>
+            <iyz>0</iyz>
+            <izz>11.3596</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookshelfA_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>-2.55449 -1.48746 0.006337 0.001313 -0.001987 0.031824</pose>
+    </model>
+    <model name='BookshelfA_01_004'>
+      <frame name='aws_robomaker_retail_BookshelfA_01::__model__' attached_to='aws_robomaker_retail_BookshelfA_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookshelfA_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>27.7341</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>20.9361</iyy>
+            <iyz>0</iyz>
+            <izz>11.3596</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookshelfA_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>-2.60858 -4.76165 0.003411 0 -0 0</pose>
+    </model>
+    <model name='BookshelfB_01_001'>
+      <frame name='aws_robomaker_retail_BookshelfB_01::__model__' attached_to='aws_robomaker_retail_BookshelfB_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookshelfB_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>19.8742</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>49.1263</iyy>
+            <iyz>0</iyz>
+            <izz>30.2231</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookshelfB_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>-6.18968 -6.78565 -0.008942 0.003533 0.000121 -0.032073</pose>
+    </model>
+    <model name='BookshelfB_01_002'>
+      <frame name='aws_robomaker_retail_BookshelfB_01::__model__' attached_to='aws_robomaker_retail_BookshelfB_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookshelfB_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>19.8742</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>49.1263</iyy>
+            <iyz>0</iyz>
+            <izz>30.2231</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookshelfB_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>-2.20941 -6.97146 0.017074 -0.000128 -0.000252 0.000364</pose>
+    </model>
+    <model name='BookshelfB_01_003'>
+      <frame name='aws_robomaker_retail_BookshelfB_01::__model__' attached_to='aws_robomaker_retail_BookshelfB_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookshelfB_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>19.8742</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>49.1263</iyy>
+            <iyz>0</iyz>
+            <izz>30.2231</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookshelfB_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>0.522246 -6.9715 0.017947 -0.003292 0 0</pose>
+    </model>
+    <model name='BookshelfB_01_004'>
+      <frame name='aws_robomaker_retail_BookshelfB_01::__model__' attached_to='aws_robomaker_retail_BookshelfB_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookshelfB_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>19.8742</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>49.1263</iyy>
+            <iyz>0</iyz>
+            <izz>30.2231</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookshelfB_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>3.29339 -6.96366 0.017383 8e-06 -2e-06 -0</pose>
+    </model>
+    <model name='BookshelfB_01_005'>
+      <frame name='aws_robomaker_retail_BookshelfB_01::__model__' attached_to='aws_robomaker_retail_BookshelfB_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookshelfB_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>19.8742</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>49.1263</iyy>
+            <iyz>0</iyz>
+            <izz>30.2231</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookshelfB_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>6.08038 -6.98766 0.017409 0.000174 4e-06 0</pose>
+    </model>
+    <model name='BookshelfB_01_006'>
+      <frame name='aws_robomaker_retail_BookshelfB_01::__model__' attached_to='aws_robomaker_retail_BookshelfB_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookshelfB_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>19.8742</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>49.1263</iyy>
+            <iyz>0</iyz>
+            <izz>30.2231</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookshelfB_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>7.47833 -5.2983 0.017443 -0.001974 -0.000211 1.55406</pose>
+    </model>
+    <model name='BookshelfB_01_007'>
+      <frame name='aws_robomaker_retail_BookshelfB_01::__model__' attached_to='aws_robomaker_retail_BookshelfB_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookshelfB_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>19.8742</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>49.1263</iyy>
+            <iyz>0</iyz>
+            <izz>30.2231</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookshelfB_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>7.47833 -2.51065 0.017402 1e-05 -1.3e-05 1.56207</pose>
+    </model>
+    <model name='BookshelfB_01_008'>
+      <frame name='aws_robomaker_retail_BookshelfB_01::__model__' attached_to='aws_robomaker_retail_BookshelfB_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_BookshelfB_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>19.8742</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>49.1263</iyy>
+            <iyz>0</iyz>
+            <izz>30.2231</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_BookshelfB_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>7.47833 0.402539 0.017181 3e-06 -0.000156 1.5708</pose>
+    </model>
+    <model name='ColumnB_01_002'>
+      <frame name='aws_robomaker_retail_ColumnB_01::__model__' attached_to='aws_robomaker_retail_ColumnB_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_ColumnB_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>44.5597</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>44.5597</iyy>
+            <iyz>0</iyz>
+            <izz>1.87942</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_ColumnB_01/meshes/aws_ColumnB_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_ColumnB_01/meshes/aws_ColumnB_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_ColumnB_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>-4.07623 -6.86071 0.017511 0.001895 -0.000628 -0.003755</pose>
+    </model>
+    <model name='InfoDesk_01_001'>
+      <frame name='aws_robomaker_retail_InfoDesk_01::__model__' attached_to='aws_robomaker_retail_InfoDesk_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_InfoDesk_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>47.8386</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>25.3705</iyy>
+            <iyz>0</iyz>
+            <izz>63.5798</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_InfoDesk_01/meshes/aws_InfoDesk_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_InfoDesk_01/meshes/aws_InfoDesk_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_InfoDesk_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>1.01067 5.03258 0.011585 -0.006739 0.00511 -0.025146</pose>
+    </model>
+    <model name='DeskB_01_001'>
+      <frame name='aws_robomaker_retail_DeskB_01::__model__' attached_to='aws_robomaker_retail_DeskB_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_DeskB_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>154.884</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>7.48424</iyy>
+            <iyz>0</iyz>
+            <izz>152.099</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_DeskB_01/meshes/aws_DeskB_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_DeskB_01/meshes/aws_DeskB_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_DeskB_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>5.62294 -2.47542 -0.181282 0 -0 0</pose>
+    </model>
+    <model name='DeskB_01_002'>
+      <frame name='aws_robomaker_retail_DeskB_01::__model__' attached_to='aws_robomaker_retail_DeskB_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_DeskB_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>154.884</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>7.48424</iyy>
+            <iyz>0</iyz>
+            <izz>152.099</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_DeskB_01/meshes/aws_DeskB_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_DeskB_01/meshes/aws_DeskB_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_DeskB_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>-5.40071 2.58054 -0.181282 0 -0 0</pose>
+    </model>
+    <model name='DeskA_01_003'>
+      <frame name='aws_robomaker_retail_DeskA_01::__model__' attached_to='aws_robomaker_retail_DeskA_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_DeskA_01::link'>
+        <inertial>
+          <mass>20</mass>
+          <inertia>
+            <ixx>3.49717</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>23.5599</iyy>
+            <iyz>0</iyz>
+            <izz>23.5702</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_DeskA_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>-6.25465 -3.9792 -0.004603 0.001948 0.001361 -1.56957</pose>
+    </model>
+    <model name='DeskA_01_004'>
+      <frame name='aws_robomaker_retail_DeskA_01::__model__' attached_to='aws_robomaker_retail_DeskA_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_DeskA_01::link'>
+        <inertial>
+          <mass>20</mass>
+          <inertia>
+            <ixx>3.49717</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>23.5599</iyy>
+            <iyz>0</iyz>
+            <izz>23.5702</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_DeskA_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>-0.701688 -4.04929 0.014866 0 -0 -1.5661</pose>
+    </model>
+    <model name='DeskA_01_005'>
+      <frame name='aws_robomaker_retail_DeskA_01::__model__' attached_to='aws_robomaker_retail_DeskA_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_DeskA_01::link'>
+        <inertial>
+          <mass>20</mass>
+          <inertia>
+            <ixx>3.49717</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>23.5599</iyy>
+            <iyz>0</iyz>
+            <izz>23.5702</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_DeskA_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>2.2982 0.861754 0.014883 -2e-06 0.003451 2.4e-05</pose>
+    </model>
+    <model name='DoorB_01_001'>
+      <frame name='aws_robomaker_retail_DoorB_01::__model__' attached_to='aws_robomaker_retail_DoorB_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_DoorB_01::link'>
+        <inertial>
+          <mass>50</mass>
+          <inertia>
+            <ixx>44.5597</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>151.699</iyy>
+            <iyz>0</iyz>
+            <izz>107.806</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_DoorB_01/meshes/aws_DoorB_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_DoorB_01/meshes/aws_DoorB_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>2</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_DoorB_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>-2.49246 7.21937 -0.035203 0 -0 0</pose>
+    </model>
+    <model name='RetailShopFloor_01_001'>
+      <frame name='aws_robomaker_retail_RetailShopFloor_01::__model__' attached_to='aws_robomaker_retail_RetailShopFloor_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_RetailShopFloor_01::link'>
+        <inertial>
+          <mass>100</mass>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_RetailShopFloor_01/meshes/aws_RetailShopFloor_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_RetailShopFloor_01/meshes/aws_RetailShopFloor_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_RetailShopFloor_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>-0.002687 0 -0.276618 0 -0 0</pose>
+    </model>
+    <model name='Horologe_01_001'>
+      <frame name='aws_robomaker_retail_Horologe_01::__model__' attached_to='aws_robomaker_retail_Horologe_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_Horologe_01::link'>
+        <inertial>
+          <mass>1</mass>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_Horologe_01/meshes/aws_Horologe_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_Horologe_01/meshes/aws_Horologe_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>2</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_Horologe_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>2.40512 3.02571 2.52519 0 -0 -1.56558</pose>
+    </model>
+    <model name='RetailShopWall_01_001'>
+      <frame name='aws_robomaker_retail_RetailShopWall_01::__model__' attached_to='aws_robomaker_retail_RetailShopWall_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_RetailShopWall_01::link'>
+        <inertial>
+          <mass>1</mass>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_RetailShopWall_01/meshes/aws_RetailShopWall_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_RetailShopWall_01/meshes/aws_RetailShopWall_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>2</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_RetailShopWall_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>0 0 -0.281282 0 -0 0</pose>
+    </model>
+    <model name='Spotlight_01_001'>
+      <frame name='aws_robomaker_retail_Spotlight_01::__model__' attached_to='aws_robomaker_retail_Spotlight_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_Spotlight_01::link'>
+        <inertial>
+          <mass>1</mass>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_Spotlight_01/meshes/aws_Spotlight_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_Spotlight_01/meshes/aws_Spotlight_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>3</layer>
+          </meta>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_Spotlight_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>1.4932 4.69237 3.30266 0 -0 0</pose>
+    </model>
+    <model name='ShopWindow_01_001'>
+      <frame name='aws_robomaker_retail_ShopWindow_01::__model__' attached_to='aws_robomaker_retail_ShopWindow_01::link'>
+        <pose relative_to='__model__'>0 0 0 0 -0 0</pose>
+      </frame>
+      <link name='aws_robomaker_retail_ShopWindow_01::link'>
+        <inertial>
+          <mass>1</mass>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_ShopWindow_01/meshes/aws_ShopWindow_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file://models/aws_robomaker_retail_ShopWindow_01/meshes/aws_ShopWindow_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <pose relative_to='aws_robomaker_retail_ShopWindow_01::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>-7.73816 0.01596 -0.180092 0 -0 0</pose>
+    </model>
+    <light name='RetailShop_CeilingLight_001' type='point'>
+      <pose>2.77442 -3.62815 3.17847 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.32</constant>
+        <linear>0.01</linear>
+        <quadratic>0.03</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <light name='RetailShop_CeilingLight_002' type='point'>
+      <pose>5.38399 -5.38371 3.17847 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.32</constant>
+        <linear>0.01</linear>
+        <quadratic>0.03</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <light name='RetailShop_CeilingLight_003' type='point'>
+      <pose>5.38399 0.04192 3.17847 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.32</constant>
+        <linear>0.01</linear>
+        <quadratic>0.03</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <light name='RetailShop_CeilingLight_004' type='point'>
+      <pose>-3.21067 -5.38371 3.17847 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.32</constant>
+        <linear>0.01</linear>
+        <quadratic>0.03</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <light name='RetailShop_CeilingLight_005' type='point'>
+      <pose>-3.271 2.68593 3.17847 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.32</constant>
+        <linear>0.01</linear>
+        <quadratic>0.03</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <light name='RetailShop_CeilingLight_006' type='point'>
+      <pose>1.4932 4.69237 3.17847 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.32</constant>
+        <linear>0.01</linear>
+        <quadratic>0.03</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <wind/>
+    <state world_name='default'>
+      <sim_time>2443 251000000</sim_time>
+      <real_time>694 436771397</real_time>
+      <wall_time>1677871883 934098386</wall_time>
+      <iterations>692308</iterations>
+      <model name='BookD_01_004'>
+        <pose>2.30571 0.366231 1.03815 6e-06 -0 0.001712</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookD_01::link'>
+          <pose>2.30571 0.366231 1.03815 6e-06 -0 0.001712</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookF_01_004'>
+        <pose>1.09789 0.358726 1.03816 8e-06 -0 1.58038</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookF_01::link'>
+          <pose>1.09789 0.358726 1.03816 8e-06 -0 1.58038</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookF_01_005'>
+        <pose>3.50953 0.354293 1.03816 8e-06 -0 1.58038</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookF_01::link'>
+          <pose>3.50953 0.354293 1.03816 8e-06 -0 1.58038</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookshelfA_01_001'>
+        <pose>2.67835 -2.33907 0.035303 -3.7e-05 -0.00349 1.58115</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookshelfA_01::link'>
+          <pose>2.67835 -2.33907 0.035303 -3.7e-05 -0.00349 1.58115</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookshelfA_01_002'>
+        <pose>2.64114 -4.54839 0.003411 0 -0 1.5778</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookshelfA_01::link'>
+          <pose>2.64114 -4.54839 0.003411 0 -0 1.5778</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookshelfA_01_003'>
+        <pose>-2.60023 -0.050691 0.008224 0.001313 -0.001987 0.031824</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookshelfA_01::link'>
+          <pose>-2.60023 -0.050691 0.008224 0.001313 -0.001987 0.031824</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookshelfA_01_004'>
+        <pose>-2.74467 -4.1037 0.003411 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookshelfA_01::link'>
+          <pose>-2.74467 -4.1037 0.003411 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookshelfB_01_001'>
+        <pose>-6.18898 -6.97871 -0.009624 0.003535 -5e-06 0.003649</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookshelfB_01::link'>
+          <pose>-6.18898 -6.97871 -0.009624 0.003535 -5e-06 0.003649</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookshelfB_01_002'>
+        <pose>-2.20941 -6.97146 0.017074 -0.000128 -0.000252 0.000364</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookshelfB_01::link'>
+          <pose>-2.20941 -6.97146 0.017074 -0.000128 -0.000252 0.000364</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookshelfB_01_003'>
+        <pose>0.522246 -6.9715 0.017947 -0.003292 0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookshelfB_01::link'>
+          <pose>0.522246 -6.9715 0.017947 -0.003292 0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookshelfB_01_004'>
+        <pose>3.29339 -6.96366 0.017383 8e-06 -2e-06 -0</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookshelfB_01::link'>
+          <pose>3.29339 -6.96366 0.017383 8e-06 -2e-06 -0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookshelfB_01_005'>
+        <pose>6.08038 -6.98766 0.017409 0.000174 4e-06 0</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookshelfB_01::link'>
+          <pose>6.08038 -6.98766 0.017409 0.000174 4e-06 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookshelfB_01_006'>
+        <pose>7.47833 -5.2983 0.017443 -0.001974 -0.000211 1.55406</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookshelfB_01::link'>
+          <pose>7.47833 -5.2983 0.017443 -0.001974 -0.000211 1.55406</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookshelfB_01_007'>
+        <pose>7.47833 -2.51065 0.017402 1e-05 -1.3e-05 1.56207</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookshelfB_01::link'>
+          <pose>7.47833 -2.51065 0.017402 1e-05 -1.3e-05 1.56207</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='BookshelfB_01_008'>
+        <pose>7.47833 0.402539 0.017181 3e-06 -0.000156 1.5708</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_BookshelfB_01::link'>
+          <pose>7.47833 0.402539 0.017181 3e-06 -0.000156 1.5708</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='ColumnB_01_002'>
+        <pose>-4.07623 -6.86071 0.017511 0.001895 -0.000628 -0.003755</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_ColumnB_01::link'>
+          <pose>-4.07623 -6.86071 0.017511 0.001895 -0.000628 -0.003755</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='DeskA_01_003'>
+        <pose>-5.52214 -3.53677 -0.003011 0.001948 0.001361 -1.56957</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_DeskA_01::link'>
+          <pose>-5.52214 -3.53677 -0.003011 0.001948 0.001361 -1.56957</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='DeskA_01_004'>
+        <pose>-0.33345 -3.33729 0.014866 0 0 -1.5661</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_DeskA_01::link'>
+          <pose>-0.33345 -3.33729 0.014866 0 0 -1.5661</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='DeskA_01_005'>
+        <pose>2.29783 0.459339 0.014883 -2e-06 0.003451 2.4e-05</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_DeskA_01::link'>
+          <pose>2.29783 0.459339 0.014883 -2e-06 0.003451 2.4e-05</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='DeskB_01_001'>
+        <pose>5.62294 -2.47542 -0.181282 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_DeskB_01::link'>
+          <pose>5.62294 -2.47542 -0.181282 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='DeskB_01_002'>
+        <pose>-5.04157 2.63844 -0.181282 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_DeskB_01::link'>
+          <pose>-5.04157 2.63844 -0.181282 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='DoorB_01_001'>
+        <pose>-2.49246 7.21937 -0.035203 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_DoorB_01::link'>
+          <pose>-2.49246 7.21937 -0.035203 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='FemaleVisitor'>
+        <pose>0.937405 -6.10471 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose>0.937405 -6.10471 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='FemaleVisitor_0'>
+        <pose>5.01999 -3.47519 0 0 0 -3.06937</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose>5.01999 -3.47519 0 0 0 -3.06937</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='Horologe_01_001'>
+        <pose>2.40512 3.02571 2.52519 0 0 -1.56558</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_Horologe_01::link'>
+          <pose>2.40512 3.02571 2.52519 0 0 -1.56558</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='InfoDesk_01_001'>
+        <pose>-1.01581 3.45371 0.011585 -0.006445 0.005476 0.030427</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_InfoDesk_01::link'>
+          <pose>-1.01581 3.45371 0.011585 -0.006445 0.005476 0.030427</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='MaleVisitorOnPhone'>
+        <pose>5.11841 -0.432137 0 0 0 -3.09273</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose>5.11841 -0.432137 0 0 0 -3.09273</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='MaleVisitorOnPhone_0'>
+        <pose>1.84196 3.9068 0 0 0 -3.131</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose>1.84196 3.9068 0 0 0 -3.131</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='PatientWheelChair'>
+        <pose>-2.72328 3.60913 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose>-2.72328 3.60913 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='RetailShopFloor_01_001'>
+        <pose>-0.032416 -0.007194 -0.276618 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_RetailShopFloor_01::link'>
+          <pose>-0.032416 -0.007194 -0.276618 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='RetailShopWall_01_001'>
+        <pose>0 0 -0.281282 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_RetailShopWall_01::link'>
+          <pose>0 0 -0.281282 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='Scrubs'>
+        <pose>-6.21692 2.44415 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose>-6.21692 2.44415 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='ShopWindow_01_001'>
+        <pose>-7.73816 0.01596 -0.180092 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_ShopWindow_01::link'>
+          <pose>-7.73816 0.01596 -0.180092 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='Spotlight_01_001'>
+        <pose>1.4932 4.69237 3.30266 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_retail_Spotlight_01::link'>
+          <pose>1.4932 4.69237 3.30266 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='VisitorKidSit'>
+        <pose>-5.17019 -3.13637 0.615658 0 -0 1.52952</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose>-5.17019 -3.13637 0.615658 0 -0 1.52952</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <light name='RetailShop_CeilingLight_001'>
+        <pose>0.677943 -2.90289 3.17847 0 -0 0</pose>
+      </light>
+      <light name='RetailShop_CeilingLight_002'>
+        <pose>5.38399 -4.5556 3.17847 0 -0 0</pose>
+      </light>
+      <light name='RetailShop_CeilingLight_003'>
+        <pose>5.38399 -0.244734 3.17847 0 -0 0</pose>
+      </light>
+      <light name='RetailShop_CeilingLight_004'>
+        <pose>-3.96195 -2.89053 3.17847 0 -0 0</pose>
+      </light>
+      <light name='RetailShop_CeilingLight_005'>
+        <pose>-4.19466 3.46634 3.17847 0 -0 0</pose>
+      </light>
+      <light name='RetailShop_CeilingLight_006'>
+        <pose>0.075853 3.5776 3.17847 0 -0 0</pose>
+      </light>
+    </state>
+    <model name='MaleVisitorOnPhone'>
+      <static>1</static>
+      <link name='body'>
+        <pose>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://MaleVisitorOnPhone/meshes/MaleVisitorStatic.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://MaleVisitorOnPhone/meshes/MaleVisitorStatic_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>4.47834 -0.269824 0 0 -0 0</pose>
+    </model>
+    <model name='FemaleVisitor'>
+      <static>1</static>
+      <link name='body'>
+        <pose>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://FemaleVisitor/meshes/FemaleVisitor.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://FemaleVisitor/meshes/FemaleVisitor_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.705995 -6.1259 0 0 -0 0</pose>
+    </model>
+    <model name='PatientWheelChair'>
+      <static>1</static>
+      <link name='body'>
+        <pose>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://PatientWheelChair/meshes/PatientWheelChair.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://PatientWheelChair/meshes/PatientWheelChair_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-4.00954 5.48311 0 0 -0 0</pose>
+    </model>
+    <model name='Scrubs'>
+      <static>1</static>
+      <link name='body'>
+        <pose>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://Scrubs/meshes/scrubs.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://Scrubs/meshes/Scrubs_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-6.21692 2.44415 0 0 -0 0</pose>
+    </model>
+    <model name='VisitorKidSit'>
+      <static>1</static>
+      <link name='body'>
+        <pose>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://VisitorKidSit/meshes/VisitorKidSit.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://VisitorKidSit/meshes/VisitorKidSit_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-5.60485 -3.11841 0 0 -0 0</pose>
+    </model>
+    <model name='FemaleVisitor_0'>
+      <static>1</static>
+      <link name='body'>
+        <pose>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://FemaleVisitor/meshes/FemaleVisitor.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://FemaleVisitor/meshes/FemaleVisitor_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>4.70451 -3.01667 0 0 -0 0</pose>
+    </model>
+    <model name='MaleVisitorOnPhone_0'>
+      <static>1</static>
+      <link name='body'>
+        <pose>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://MaleVisitorOnPhone/meshes/MaleVisitorStatic.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://MaleVisitorOnPhone/meshes/MaleVisitorStatic_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.50413 3.04963 0 0 -0 0</pose>
+    </model>
+  </world>
+</sdf>
